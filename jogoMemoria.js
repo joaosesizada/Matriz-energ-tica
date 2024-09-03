@@ -145,8 +145,8 @@ function criarGrid(dim) {
 
     let imagemUrl = []
     for (let i = 0; i < (dim * dim) / 2; i++) {
-        imagemUrl.push(`imagens/${i + 1}j.jpg`)
-        imagemUrl.push(`imagens/${i + 1}j.jpg`)
+        imagemUrl.push(`./imagens/${i + 1}j.jpg`)
+        imagemUrl.push(`./imagens/${i + 1}j.jpg`)
     }
 
     embaralharCarta(imagemUrl)
